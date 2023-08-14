@@ -20,4 +20,9 @@ A brief description of what this project does and who it's for
 ## License
 
 CoVid-HQ is written in Swift 5 and is open source
-(Apache licenses)
+
+[Apache](https://github.com/RodenPaul86/CoVid-HQ/blob/main/LICENSE)
+
+
+We just launched [Codecademy Docs](https://producthunt.com) on Product Hunt!
+

@@ -1,0 +1,6 @@
+framework module Pods_CoVid_HQ {
+  umbrella header "Pods-CoVid HQ-umbrella.h"
+
+  export *
+  module * { export * }
+}

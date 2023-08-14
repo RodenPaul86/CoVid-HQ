@@ -18,15 +18,17 @@ A brief description of what this project does and who it's for
 - Fullscreen mode
 - Cross platform
 
-
 ## iOS App
 
-<img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="300" />
+<div align="left">
+    <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="250" />
+    <img src="Images/Screenshots/screenshot02.png" alt="Get it from GitHub" width="250" />
+    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="250" />   
+</div>
 
 ## Support
 
 <p><a href="https://www.buymeacoffee.com/paulRoden"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulRoden" /></a></p><br><br>
-
 <br/><br/>
 
 

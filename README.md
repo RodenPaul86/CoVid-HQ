@@ -7,7 +7,7 @@ A brief description of what this project does and who it's for
 <div align="center">
     <h4><b>You can get CoVid-HQ from the link below!</b></h4>
     <a href="https://github.com/RodenPaul86/CoVid-HQ">
-        <img src="images/get-it-on-github.png" alt="Get it from GitHub" height="80" />
+        <img src="Images/Badges/get-it-on-github.png" alt="Get it from GitHub" height="80" />
     </a>
 </div>
 

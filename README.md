@@ -21,8 +21,7 @@ A brief description of what this project does and who it's for
 
 ## iOS App
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+<img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" height="200" />
 
 ## Support
 

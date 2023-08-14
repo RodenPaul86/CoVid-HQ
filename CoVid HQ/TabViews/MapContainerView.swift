@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MapContainerView: View {
-    
     @ObservedObject var covidFetch = CovidFetchRequest()
     
     var body: some View {

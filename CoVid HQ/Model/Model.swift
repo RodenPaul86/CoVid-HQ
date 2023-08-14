@@ -8,7 +8,6 @@
 import Foundation
 
 struct TotalData {
-    
     let confirmed: Int
     let critical: Int
     let deaths: Int
@@ -28,7 +27,6 @@ struct TotalData {
 }
 
 struct CountryData {
-    
     let country: String
     let confirmed: Int64
     let critical: Int64

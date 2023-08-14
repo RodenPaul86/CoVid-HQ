@@ -7,10 +7,8 @@
 
 import SwiftUI
 import MessageUI
-import Instabug
 
 struct SettingsTab: View {
-    
     @Environment(\.colorScheme) var colorScheme
     @State private var showView = false
     @State var facebookURL = "http://www.facebook.com/studio4designsoftware"
@@ -25,11 +23,8 @@ struct SettingsTab: View {
     @State var result: Result<MFMailComposeResult, Error>? = nil
     
     var body: some View {
-        
         NavigationView {
-            
             List {
-                
                 Section(header: Text("covid hq \(UIApplication.appVersion) (\(UIApplication.appBuild))")) {
                     
                     Button(action: {
@@ -63,7 +58,7 @@ struct SettingsTab: View {
                     }
                     
                     Button(action: {
-                        Instabug.show()
+                        
                     }) {
                         SettingsCell(title: "Need Help?", imgName: "exclamationmark.triangle", clr: .red)
                             .foregroundColor(colorScheme == .dark ? .white : .black)

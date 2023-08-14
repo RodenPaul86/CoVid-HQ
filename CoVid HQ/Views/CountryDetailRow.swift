@@ -14,11 +14,8 @@ struct CountryDetailRow: View {
     var color: Color = .primary
     
     var body: some View {
-        
         VStack {
-            
             HStack {
-                
                 Text(self.name)
                     .font(.body)
                     .padding(5)
@@ -31,14 +28,11 @@ struct CountryDetailRow: View {
                     .foregroundColor(color)
                 
             } // End of HStack
-            
             Divider()
         } // End of VStack
-        
         .padding(.leading)
         .padding(.trailing)
     }
-    
 }
 
 struct CountryDetailRow_Previews: PreviewProvider {

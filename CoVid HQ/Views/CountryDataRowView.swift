@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct CountryDataRowView: View {
-    
     var countryData: CountryData
     
     var body: some View {
-        
         HStack {
             Text(countryData.country)
                 .fontWeight(.medium)

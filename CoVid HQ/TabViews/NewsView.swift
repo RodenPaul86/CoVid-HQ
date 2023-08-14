@@ -12,26 +12,17 @@ import WebKit
 import SwiftUIRefresh
 
 struct NewsView: View {
-    
     @ObservedObject var list = getData()
     @State private var isShowing = false
     
     var body: some View {
-        
         NavigationView {
-            
             List(list.dates) { i in
-                
-                NavigationLink(destination:
-                                
-                                webView(url: i.url)
-                
-                                .navigationBarTitle("", displayMode: .inline )) {
+                NavigationLink(destination: webView(url: i.url)
+                    .navigationBarTitle("", displayMode: .inline )) {
                     
                     HStack(spacing: 15) {
-                        
                         VStack(alignment: .leading, spacing: 10) {
-                            
                             Text(i.title)
                                 .fontWeight(.heavy)
                                 .lineLimit(3)
@@ -50,7 +41,6 @@ struct NewsView: View {
                         }
                         
                         if i.image != "" {
-                            
                             WebImage(url: URL(string: i.image), options: .highPriority, context: nil)
                                 .resizable()
                                 .frame(width: 110, height: 110)

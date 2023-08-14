@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ListHeaderView: View {
-    
     var body: some View {
-        
         HStack(alignment: .center) {
-            
             Text("Country")
                 .fontWeight(.bold)
                 .font(.subheadline)

@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct CountryDetailView: View {
-    
     var countryData: CountryData
     
     var body: some View {
-        
         VStack {
             VStack {
-                
                 CountryDetailRow(number: countryData.confirmed.formatNumber(), name: "Confirmed Cases")
                     .padding(.top)
                 

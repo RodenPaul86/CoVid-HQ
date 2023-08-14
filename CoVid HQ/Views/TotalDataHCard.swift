@@ -15,11 +15,8 @@ struct TotalDataHCard: View {
     var color: Color = .primary
     
     var body: some View {
-        
         GeometryReader { geometry in
-            
             HStack {
-                
                 Text(self.name)
                     .font(.body)
                     .padding(5)
@@ -31,15 +28,11 @@ struct TotalDataHCard: View {
                     .foregroundColor(self.color)
                 
             } // End of VStack
-            
             .frame(width: geometry.size.width, height: 80, alignment: .center)
             .background(Color("cardBackground"))
             .cornerRadius(10)
-            
         } // End of geometry
-        
     }
-    
 }
 
 struct TotalDataHCard_Previews: PreviewProvider {

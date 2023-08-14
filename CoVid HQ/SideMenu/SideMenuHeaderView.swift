@@ -11,9 +11,7 @@ struct SideMenuHeaderView: View {
     @Binding var isShowing: Bool
     
     var body: some View {
-        
         ZStack(alignment: .topTrailing) {
-            
             Button(action: {
                 
                 withAnimation(.spring()) {

@@ -8,7 +8,6 @@
 import UIKit
 
 public extension UIDevice {
-    
     var modelName: String {
         var systemInfo = utsname()
         uname(&systemInfo)

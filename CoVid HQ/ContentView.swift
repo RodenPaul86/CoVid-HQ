@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     var body: some View {
-        
         TabView { // Add new view here...
-            
             RecentView()
                 .tabItem {
                     Tab(imageName: "globe", text: "Data")

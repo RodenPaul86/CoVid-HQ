@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct RecentView: View {
-    
     @ObservedObject var covidFetch = CovidFetchRequest()
     @State var searchText = ""
     @State var isSearchVisible = false
@@ -17,17 +16,13 @@ struct RecentView: View {
     
     var body: some View {
         NavigationView {
-            
             ZStack {
-                
                 if isShowing {
                     SideMenuView(isShowing: $isShowing)
                 }
                 
                 ZStack {
-                    
                     VStack {
-                        
                         if isSearchVisible {
                             SearchView(searchText: $searchText)
                         }
@@ -38,7 +33,6 @@ struct RecentView: View {
                             .unredacted()
                         
                         List {
-                            
                             ForEach(covidFetch.allCountries.filter {
                                 self.searchText.isEmpty ? true : $0.country.lowercased().contains(self.searchText.lowercased())
                             }, id: \.country) { countryData in
@@ -94,11 +88,9 @@ struct RecentView: View {
             }
             //.frame(width: UIScreen.main.bounds.width-20, alignment: .center)
             
-            
         } // End of nav bar
         .accentColor(.red)
     }
-    
     
     func startNetworkCall() {
         isLoading = true

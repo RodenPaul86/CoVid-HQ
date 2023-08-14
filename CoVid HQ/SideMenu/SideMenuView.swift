@@ -12,17 +12,14 @@ struct SideMenuView: View {
     @Binding var isShowing: Bool
     
     var body: some View {
-        
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color.black, Color.red]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             VStack {
-                
                 SideMenuHeaderView(isShowing: $isShowing)
                     .foregroundColor(.white)
                     .frame(height: 230)
-                
                 
                 ForEach(SideMenuViewModel.allCases, id: \.self) { option in
                     
@@ -32,7 +29,6 @@ struct SideMenuView: View {
                     }, label: {
                         SideMenuOptionView(viewModel: option)
                     })
-                    
                     
                     /*
                     NavigationLink(

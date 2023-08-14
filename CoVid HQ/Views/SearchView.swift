@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SearchView: View {
-    
     @Binding var searchText: String
     
     var body: some View {
@@ -17,7 +16,6 @@ struct SearchView: View {
                 .padding()
             
         } // End of HStack
-        
         .frame( height: 50)
         .background(Color("cardBackground"))
     }

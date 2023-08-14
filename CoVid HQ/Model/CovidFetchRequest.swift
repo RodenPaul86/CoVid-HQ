@@ -10,7 +10,6 @@ import Alamofire
 import SwiftyJSON
 
 class CovidFetchRequest: ObservableObject {
-    
     @Published var allCountries: [CountryData] = []
     @Published var totalData: TotalData = testTotalData
     
@@ -25,7 +24,6 @@ class CovidFetchRequest: ObservableObject {
     }
     
     func getCurrentTotal() {
-        
         AF.request("https://covid-19-data.p.rapidapi.com/totals", headers: headers).responseJSON { response in
             
             let result = response.data
@@ -49,7 +47,6 @@ class CovidFetchRequest: ObservableObject {
     }
     
     func getAllCountries() {
-        
         AF.request("https://covid-19-data.p.rapidapi.com/country/all", headers: headers).responseJSON { response in
             
             let result = response.value

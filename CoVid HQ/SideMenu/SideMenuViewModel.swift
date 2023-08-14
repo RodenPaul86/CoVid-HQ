@@ -8,7 +8,6 @@
 import Foundation
 
 enum SideMenuViewModel: Int, CaseIterable {
-    
     case about
     case shareApp
     case privacy
@@ -40,7 +39,4 @@ enum SideMenuViewModel: Int, CaseIterable {
         case .website: return ""
         }
     }
-    
-    
-    
 }

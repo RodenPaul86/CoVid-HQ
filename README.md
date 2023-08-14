@@ -21,7 +21,7 @@ A brief description of what this project does and who it's for
 
 ## iOS App
 
-<img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" height="200" />
+<img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="300" />
 
 ## Support
 

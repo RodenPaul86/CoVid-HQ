@@ -22,9 +22,12 @@ A brief description of what this project does and who it's for
         <img src="images/badges/Telegram.svg" alt="Telegram" />
     </a>
     <a href="/LICENSE.md">
-        <img src="images/badges/Apache.svg" alt="License" />
+        <img src="Images/Badges/Apache.svg" alt="License" />
     </a>
 </div>
+
+
+
 
 <br />
 

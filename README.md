@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="images/Icon.svg" alt="icon" />
+    <img src="Images/appstore1024.png" alt="icon" width="100" style="border-radius: 25px"/>
     <br />
     <b>CoVid-HQ | Covid-19 Tracking App</b>
 </h1>

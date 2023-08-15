@@ -2,6 +2,47 @@
 
 A brief description of what this project does and who it's for
 
+<div align="center">
+    <a href="https://developer.android.com/">
+        <img src="images/badges/Android.svg" alt="Android" />
+    </a>
+    <a href="https://kotlinlang.org/">
+        <img src="images/badges/Kotlin.svg" alt="Kotlin" />
+    </a>
+    <a href="https://crowdin.com/project/notoapp">
+        <img src="images/badges/Crowdin.svg" alt="Crowdin" />
+    </a>
+    <a href="https://www.patreon.com/alialbaali">
+        <img src="images/badges/Patreon.svg" alt="Patreon" />
+    </a>
+    <a href="https://www.buymeacoffee.com/alialbaali">
+        <img src="images/badges/BMC.svg" alt="Buy Me A Coffee" />
+    </a>
+    <a href="https://t.me/notoapp">
+        <img src="images/badges/Telegram.svg" alt="Telegram" />
+    </a>
+    <a href="/LICENSE.md">
+        <img src="images/badges/Apache.svg" alt="License" />
+    </a>
+</div>
+
+<br />
+
+<p align="center">
+    <a href="#download">Download</a>
+    •
+    <a href="#features">Features</a>
+    •
+    <a href="#screenshots">Screenshots</a>
+    •    
+    <a href="#support">Support</a>
+    •
+    <a href="#license">License</a>
+</p>
+
+
+
+
 ## Download
 
 <div align="center">
@@ -18,7 +59,7 @@ A brief description of what this project does and who it's for
 - Fullscreen mode
 - Cross platform
 
-## iOS App
+## Screenshots
 
 <div align="left">
     <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="250" />

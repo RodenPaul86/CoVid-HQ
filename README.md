@@ -56,12 +56,9 @@
 
 ## Support
 
-I'm a **solo** developer, and **Noto** was one of my first projects when I started learning Software Development
-almost **4 years ago**, and it has come a long way since then. I also have worked on various side projects, but **Noto**
-remained to this day **my main focus**.
+I embarked on my journey as an independent developer, and CoVid-HQ marked one of my initial ventures as I delved into the realm of Software Development almost four years ago. Witnessing its remarkable evolution since then has been truly inspiring. Amidst numerous side projects I've undertaken, CoVid-HQ has remained my unwavering focal point.
 
-So, if you'd like to see **Noto** remains maintained with new features, improvements, and bug fixes, I would
-really **appreciate** any support coming from my **amazing** community 🤗
+As I strive to uphold CoVid-HQ with a continuous stream of innovative features, refinements, and meticulous bug fixes, I am genuinely touched by the unwavering support of my incredible community. Your backing would mean the world to me, ensuring that CoVid-HQ continues to flourish. 🤗
 
 <p><a href="https://www.buymeacoffee.com/paulRoden"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulRoden" /></a></p><br><br>
 <br/><br/>

@@ -27,9 +27,6 @@
     <a href="#license">License</a>
 </p>
 
-
-
-
 ## Download
 
 <div align="center">
@@ -59,9 +56,15 @@
 
 ## Support
 
+I'm a **solo** developer, and **Noto** was one of my first projects when I started learning Software Development
+almost **4 years ago**, and it has come a long way since then. I also have worked on various side projects, but **Noto**
+remained to this day **my main focus**.
+
+So, if you'd like to see **Noto** remains maintained with new features, improvements, and bug fixes, I would
+really **appreciate** any support coming from my **amazing** community 🤗
+
 <p><a href="https://www.buymeacoffee.com/paulRoden"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulRoden" /></a></p><br><br>
 <br/><br/>
-
 
 ## License
 CoVid-HQ is written in (Swift 5) and is distributed under the terms of the [Apache License](https://github.com/RodenPaul86/CoVid-HQ/blob/main/LICENSE) (Version 2.0).

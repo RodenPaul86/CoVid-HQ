@@ -1,33 +1,17 @@
-# CoVid-HQ
-
-A brief description of what this project does and who it's for
+<h1 align="center">
+    <img src="images/Icon.svg" alt="icon" />
+    <br />
+    <b>CoVid-HQ | Covid-19 Tracking App</b>
+</h1>
 
 <div align="center">
-    <a href="https://developer.android.com/">
-        <img src="images/badges/Android.svg" alt="Android" />
-    </a>
-    <a href="https://kotlinlang.org/">
-        <img src="images/badges/Kotlin.svg" alt="Kotlin" />
-    </a>
-    <a href="https://crowdin.com/project/notoapp">
-        <img src="images/badges/Crowdin.svg" alt="Crowdin" />
-    </a>
-    <a href="https://www.patreon.com/alialbaali">
-        <img src="images/badges/Patreon.svg" alt="Patreon" />
-    </a>
     <a href="https://www.buymeacoffee.com/alialbaali">
-        <img src="images/badges/BMC.svg" alt="Buy Me A Coffee" />
-    </a>
-    <a href="https://t.me/notoapp">
-        <img src="images/badges/Telegram.svg" alt="Telegram" />
+        <img src="Images/Badges/BMC.svg" alt="Buy Me A Coffee" />
     </a>
     <a href="/LICENSE.md">
         <img src="Images/Badges/Apache.svg" alt="License" />
     </a>
 </div>
-
-
-
 
 <br />
 
@@ -66,8 +50,11 @@ A brief description of what this project does and who it's for
 
 <div align="left">
     <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="250" />
+    </a>    
     <img src="Images/Screenshots/screenshot02.png" alt="Get it from GitHub" width="250" />
-    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="250" />   
+    </a>    
+    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="250" />
+    </a>    
 </div>
 
 ## Support

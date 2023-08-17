@@ -38,10 +38,9 @@
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- All current country stats.
+- Map with recovered and dead stats.
+- Health news.
 
 ## Screenshots
 

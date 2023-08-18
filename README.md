@@ -39,7 +39,7 @@
 ## Features
 
 - Ad free.
-- All current country stats.
+- All current stats for different countries.
 - Map with recovered and deceased stats.
 - Health news.
 

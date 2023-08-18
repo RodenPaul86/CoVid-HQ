@@ -40,7 +40,7 @@
 
 - Ad free.
 - All current country stats.
-- Map with recovered and dead stats.
+- Map with recovered and deceased stats.
 - Health news.
 
 ## Screenshots

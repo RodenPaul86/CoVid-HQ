@@ -55,7 +55,7 @@
 
 ## Support
 
-I embarked on my journey as an independent developer, and CoVid-HQ marked one of my initial ventures as I delved into the realm of Software Development almost two years ago as of 2023. Witnessing its remarkable evolution since then has been truly inspiring. Amidst numerous side projects I've undertaken, CoVid-HQ has remained my unwavering focal point.
+I embarked on my journey as an independent developer, and CoVid-HQ marked one of my initial ventures as I delved into the realm of Software Development almost 2 years ago as of 2023. Witnessing its remarkable evolution since then has been truly inspiring. Amidst numerous side projects I've undertaken, CoVid-HQ has remained my unwavering focal point.
 
 As I strive to uphold CoVid-HQ with a continuous stream of innovative features, refinements, and meticulous bug fixes, I am genuinely touched by the unwavering support of my incredible community. Your backing would mean the world to me, ensuring that CoVid-HQ continues to flourish. 🤗
 

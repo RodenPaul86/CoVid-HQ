@@ -82,7 +82,7 @@ class getData: ObservableObject {
     
     @Published var dates = [dataType]()
     
-    private let apiKey = "500f23ee1a4945dbbb62d4c5d6a27680"
+    private let apiKey = " " // <- Add your Rapidapi API Key here.
     private let us = "us"
     private let catHealth = "health"
     

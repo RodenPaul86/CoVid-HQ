@@ -58,7 +58,7 @@
 
 I embarked on my journey as an independent developer, and CoVid HQ marked one of my initial ventures as I delved into the realm of Software Development almost 10 years ago as of 2023. Witnessing its remarkable evolution since then has been truly inspiring. Amidst numerous side projects I've undertaken, CoVid HQ has remained my unwavering focal point.
 
-As I strive to uphold CoVid HQ with a continuous stream of innovative features, refinements, and meticulous bug fixes, I am genuinely touched by the unwavering support of my incredible community. Your backing would mean the world to me, ensuring that CoVid HQ continues to flourish. 🤗
+As I strive to uphold CoVid HQ with a continuous stream of innovative features, refinements, and meticulous bug fixes, I am genuinely touched by the unwavering support of my incredible community. Your backing would mean the world to me, ensuring that CoVid HQ continues to flourish.
 
 <p><a href="https://www.buymeacoffee.com/paulRoden"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulRoden" /></a></p><br><br>
 <br/><br/>

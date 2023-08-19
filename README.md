@@ -56,7 +56,7 @@
     </a>    
 </div>
 
-### Cocoapods
+## Cocoapods
 ```ruby
 // Podfile
 target 'Example-App' do

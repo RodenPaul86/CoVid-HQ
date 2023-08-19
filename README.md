@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="Images/appstore1024.png" alt="icon" width="100" style="border-radius: 25px"/>
     <br />
-    <b>CoVid-HQ | COVID-19 Tracking App</b>
+    <b>CoVid HQ | COVID-19 Tracking App</b>
 </h1>
 
 <div align="center">

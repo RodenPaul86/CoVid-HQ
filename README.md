@@ -77,5 +77,7 @@ As I strive to uphold CoVid HQ with a continuous stream of innovative features, 
 <p><a href="https://www.buymeacoffee.com/paulRoden"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulRoden" /></a></p><br><br>
 <br/><br/>
 
+Thank you!
+
 ## License
 CoVid-HQ is written in (Swift 5) and is distributed under the terms of the [Apache License](https://github.com/RodenPaul86/CoVid-HQ/blob/main/LICENSE) (Version 2.0).

@@ -48,11 +48,11 @@
 ## Screenshots
 
 <div align="left">
-    <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="250" />
+    <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="245" />
     </a>    
-    <img src="Images/Screenshots/screenshot02.png" alt="Get it from GitHub" width="250" />
+    <img src="Images/Screenshots/screenshot02.png" alt="Get it from GitHub" width="245" />
     </a>    
-    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="250" />
+    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="245" />
     </a>    
 </div>
 

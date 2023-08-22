@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="Images/appstore1024.png" alt="icon" width="100" style="border-radius: 25px"/>
+    <img src="Images/appstore1024.png" alt="Appicon" width="100" style="border-radius: 25px"/>
     <br />
     <b>CoVid HQ | COVID-19 Tracking App</b>
 </h1>
@@ -48,11 +48,11 @@
 ## Screenshots
 
 <div align="left">
-    <img src="Images/Screenshots/screenshot01.png" alt="Get it from GitHub" width="240" />
+    <img src="Images/Screenshots/screenshot01.png" alt="Image 01" width="240" />
     </a>    
-    <img src="Images/Screenshots/screenshot02.png" alt="Get it from GitHub" width="240" />
+    <img src="Images/Screenshots/screenshot02.png" alt="Image 02" width="240" />
     </a>    
-    <img src="Images/Screenshots/screenshot03.png" alt="Get it from GitHub" width="240" />
+    <img src="Images/Screenshots/screenshot03.png" alt="Image 03" width="240" />
     </a>    
 </div>
 

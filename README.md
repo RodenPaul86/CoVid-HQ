@@ -59,12 +59,11 @@
 ## Cocoapods
 ```ruby
 // Podfile
-target 'Example-App' do
+target 'CoVid HQ' do
   use_frameworks!
-  pod 'CourierCore'
-  pod 'CourierMQTT'
-  pod 'CourierProtobuf' #optional
-  pod 'CourierMQTTChuck' #optional
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'SwiftUIRefresh'
 end
 ```
 

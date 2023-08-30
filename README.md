@@ -16,8 +16,6 @@
 <br />
 
 <p align="center">
-    <a href="#download">Download</a>
-    •
     <a href="#features">Features</a>
     •
     <a href="#screenshots">Screenshots</a>
@@ -28,15 +26,6 @@
     •
     <a href="#license">License</a>
 </p>
-
-## Download
-
-<div align="center">
-    <h4><b>You can get CoVid HQ from the link below!</b></h4>
-    <a href="https://github.com/RodenPaul86/CoVid-HQ/releases/tag/1.0.0">
-        <img src="Images/Badges/get-it-on-github.png" alt="Get it from GitHub" height="80" />
-    </a>
-</div>
 
 ## Features
 

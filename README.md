@@ -41,7 +41,7 @@
 ## Requirements
 
 - Xcode 14.3.1
-- iOS 16 / macOS Big Sur
+- iOS 15 / macOS Big Sur
 
 ## Getting-Started
 

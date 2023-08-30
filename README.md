@@ -18,13 +18,13 @@
 <p align="center">
     <a href="#features">Features</a>
     •
-    <a href="#features">Requirements</a>
-    •
-    <a href="#features">Getting-Started</a>
-    •
     <a href="#screenshots">Screenshots</a>
     •    
     <a href="#support">Cocoapods</a>
+    •
+    <a href="#features">Requirements</a>
+    •
+    <a href="#features">Getting-Started</a>
     •
     <a href="#support">Support</a>
     •
@@ -37,16 +37,6 @@
 - Current stats for different countries.
 - Map with recovered and deceased stats.
 - Health news.
-
-## Requirements
-
-- Xcode 14.3.1
-- iOS 16 / macOS Big Sur
-
-## Getting-Started
-
-- Clone or Download
-- Build and Run
 
 ## Screenshots
 
@@ -69,6 +59,16 @@ target 'CoVid HQ' do
   pod 'SwiftUIRefresh'
 end
 ```
+
+## Requirements
+
+- Xcode 14.3.1
+- iOS 16 / macOS Big Sur
+
+## Getting-Started
+
+- Clone or Download
+- Build and Run
 
 ## Support
 

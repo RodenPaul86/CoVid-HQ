@@ -3,6 +3,7 @@
 //  CoVid HQ
 //
 //  Created by Paul on 3/21/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import Foundation
@@ -15,7 +16,7 @@ class CovidFetchRequest: ObservableObject {
     
     let headers: HTTPHeaders = [
         "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
-        "x-rapidapi-key": "" // <- Add your rapidapi.com API key here.
+        "x-rapidapi-key": "\(APIKeys.rapidAPI)" // <- Add your rapidapi.com API key here.
     ]
     
     init() {
@@ -36,8 +37,6 @@ class CovidFetchRequest: ObservableObject {
                 let critical = json[0]["critical"].intValue
                 let deaths = json[0]["deaths"].intValue
                 let recovered = json[0]["recovered"].intValue
-                //let lastChange = json[0]["lastChange"].intValue
-                //let lastUpdate = json[0]["lastUpdate"].intValue
                 
                 self.totalData = TotalData(confirmed: confirmed, critical: critical, deaths: deaths, recovered: recovered)
             } else {
@@ -53,7 +52,6 @@ class CovidFetchRequest: ObservableObject {
             var allCount: [CountryData] = []
             
             if result != nil {
-                
                 let dataDictionary = result as! [Dictionary<String,AnyObject>]
                 
                 for countryData in dataDictionary {

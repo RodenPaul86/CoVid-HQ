@@ -3,6 +3,7 @@
 //  CoVid HQ
 //
 //  Created by Paul on 3/28/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
@@ -19,8 +20,13 @@ struct NewsView: View {
         NavigationView {
             List(list.dates) { i in
                 NavigationLink(destination: webView(url: i.url)
-                    .navigationBarTitle("", displayMode: .inline )) {
-                    
+                    .navigationBarTitle("\(i.url)", displayMode: .inline )
+                    .toolbar {
+                        Link(destination: URL(string: "\(i.url)")!) {
+                            Image(systemName: "safari")
+                        }
+                    }
+                ) {
                     HStack(spacing: 15) {
                         VStack(alignment: .leading, spacing: 10) {
                             Text(i.title)
@@ -31,13 +37,6 @@ struct NewsView: View {
                             Text(i.desc)
                                 .lineLimit(2)
                                 .font(.system(size: 14))
-                            
-                            /*
-                            let str = "\(i.id)"
-                            let dateStr = str.toDate(dateFormat: "yyyy-mm-dd'T'HH:mm:ssZ")
-                            
-                            Text("\(dateStr!)")
-                            */
                         }
                         
                         if i.image != "" {
@@ -46,20 +45,14 @@ struct NewsView: View {
                                 .frame(width: 110, height: 110)
                                 .cornerRadius(20)
                         }
-                        
                     }
                     .padding(.vertical, 15)
                 }
             }
             .navigationTitle("Health News")
-            
-            /*
             .pullToRefresh(isShowing: $isShowing) {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    self.isShowing = false
-                }
+                //refreshList() // Define this function to update your list data
             }
-            */
         }
     }
 }
@@ -79,10 +72,9 @@ struct dataType: Identifiable {
 }
 
 class getData: ObservableObject {
-    
     @Published var dates = [dataType]()
     
-    private let apiKey = "" // <- Add your newsapi.org API Key here.
+    private let apiKey = "\(APIKeys.newsAPI)" // <- Add your own newsapi.org API Key here.
     private let us = "us"
     private let catHealth = "health"
     
@@ -121,7 +113,6 @@ class getData: ObservableObject {
 }
 
 struct webView: UIViewRepresentable {
-    
     var url: String
     
     func makeUIView(context: UIViewRepresentableContext<webView>) -> WKWebView {
@@ -131,6 +122,5 @@ struct webView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<webView>) {
-        
     }
 }

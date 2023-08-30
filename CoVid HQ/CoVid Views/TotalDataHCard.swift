@@ -1,29 +1,28 @@
 //
-//  TotalDataCard.swift
+//  TotalDataHCard.swift
 //  CoVid HQ
 //
-//  Created by Paul on 3/21/21.
+//  Created by Paul on 3/24/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
 
-struct TotalDataCard: View {
+struct TotalDataHCard: View {
     var number: String = "Error"
     var name: String = "Confirmed"
     var color: Color = .primary
     
     var body: some View {
         GeometryReader { geometry in
-            VStack {
-                Text(self.number)
-                    .fontWeight(.bold)
+            HStack {
+                Text(self.name)
                     .font(.body)
                     .padding(5)
                     .foregroundColor(self.color)
                 
-                Text(self.name)
-                    .fontWeight(.bold)
-                    .font(.body)
+                Text(self.number)
+                    .font(.subheadline)
                     .padding(5)
                     .foregroundColor(self.color)
                 
@@ -35,8 +34,8 @@ struct TotalDataCard: View {
     }
 }
 
-struct TotalDataCard_Previews: PreviewProvider {
+struct TotalDataHCard_Previews: PreviewProvider {
     static var previews: some View {
-        TotalDataCard()
+        TotalDataHCard()
     }
 }

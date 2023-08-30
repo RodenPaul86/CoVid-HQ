@@ -3,12 +3,12 @@
 //  CoVid HQ
 //
 //  Created by Paul on 4/3/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
 
 struct OtherApps: View {
-    
     var appName: String
     var appImage: String
     var description: String
@@ -20,12 +20,10 @@ struct OtherApps: View {
             HStack {
                 Image(appImage).resizable()
                     .frame(width: 64, height: 64)
-                    //.clipShape(Capsule()).clipped()
-                    //.padding()
                     .cornerRadius(15)
+                    .padding(10)
                 
                 VStack(alignment: .leading) {
-                    
                     Text(appName)
                         .font(.headline)
                     
@@ -33,7 +31,7 @@ struct OtherApps: View {
                         .font(.body)
                 }
             }
-            .padding(5)
+            //.padding(5)
         }
     }
 }

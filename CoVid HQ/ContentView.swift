@@ -3,53 +3,38 @@
 //  CoVid HQ
 //
 //  Created by Paul on 3/23/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView { // Add new view here...
+        TabView {
             RecentView()
                 .tabItem {
-                    Tab(imageName: "globe", text: "Data")
+                    Image(systemName: "globe")
+                    Text("Data")
                 }
-                .tag(0)
             
             MapContainerView()
                 .edgesIgnoringSafeArea(.vertical)
                 .tabItem {
-                    Tab(imageName: "map", text: "Maps")
+                    Image(systemName: "map")
+                    Text("Maps")
                 }
-                .tag(1)
             
             NewsView()
                 .tabItem {
-                    Tab(imageName: "newspaper", text: "News")
+                    Image(systemName: "newspaper")
+                    Text("News")
                 }
-                .tag(2)
             
             SettingsTab()
                 .tabItem {
-                    Tab(imageName: "gear", text: "Settings")
+                    Image(systemName: "gear")
+                    Text("Settings")
                 }
-                .tag(3)
-            
-        } // End of tabView
-        //.accentColor(.red)
-    }
-}
-
-
-private struct Tab: View {
-    
-    let imageName: String
-    let text: String
-    
-    var body: some View {
-        VStack {
-            Image(systemName: imageName)
-            Text(text)
         }
     }
 }

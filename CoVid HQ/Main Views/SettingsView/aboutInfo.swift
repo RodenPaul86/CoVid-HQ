@@ -3,12 +3,12 @@
 //  CoVid HQ
 //
 //  Created by Paul on 4/3/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
 
 struct aboutInfo: View {
-    
     var appName: String
     var appImage: String
     var description: String

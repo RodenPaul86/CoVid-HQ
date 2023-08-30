@@ -3,6 +3,7 @@
 //  CoVid HQ
 //
 //  Created by Paul on 3/27/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import Foundation

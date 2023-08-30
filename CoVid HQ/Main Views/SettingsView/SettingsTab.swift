@@ -3,20 +3,23 @@
 //  CoVid HQ
 //
 //  Created by Paul on 4/3/21.
+//  Copyright © 2021 Paul Roden Jr. All rights reserved.
 //
 
 import SwiftUI
 import MessageUI
+import StoreKit
 
 struct SettingsTab: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var showView = false
     @State var facebookURL = "http://www.facebook.com/studio4designsoftware"
     @State var webSiteURL = "http://www.studio4designsoftware.weebly.com"
-    @State var appStoreURLprolight = "https://apps.apple.com/us/app/prolight/id1173567157"
-    @State var appStoreURLnoel = "https://apps.apple.com/us/app/noel-christmas-countdown/id1161557247"
-    @State var appStoreURLnotestation = "https://apps.apple.com/us/app/notestation/id847145885"
     @State var privacyPolicy = "https://studio4designsoftware.weebly.com/covid-hq-policy.html"
+    
+    @State private var showProLight_App = false
+    @State private var showNoel_App = false
+    @State private var showNoteStation_App = false
     
     @State var isShowingMailView = false
     @State var alertNoMail = false
@@ -65,7 +68,7 @@ struct SettingsTab: View {
                     }
                     
                     Button(action: {
-                        facebookURL = "http://www.facebook.com/studio4designsoftware"
+                        webSiteURL = "http://www.facebook.com/studio4designsoftware"
                         showView = true
                     }) {
                         SettingsCell(title: "Like us on Facebook", imgName: "hand.thumbsup", clr: .red)
@@ -88,35 +91,37 @@ struct SettingsTab: View {
                 }
                 
                 Section(header: Text("more apps"), footer: Text("© Studio 4 Design Software LLC")) {
-                    
                     Button(action: {
-                        showView = true
+                        showProLight_App.toggle()
                     }) {
                         OtherApps(appName: "ProLight", appImage: "icon_prolight", description: "A Handy Flashlight for\niPhone and Apple Watch", color: .blue)
                             .foregroundColor(colorScheme == .dark ? .white : .black)
                     }
-                    .sheet(isPresented: $showView) {
-                        SFSafariView(url: URL(string: self.appStoreURLprolight)!)
+                    .appStoreOverlay(isPresented: $showProLight_App) {
+                        SKOverlay.AppConfiguration(appIdentifier: "\(APIKeys.prolightAppID)",
+                                                   position: .bottom)
                     }
                     
                     Button(action: {
-                        showView = true
+                        showNoel_App.toggle()
                     }) {
                         OtherApps(appName: "Noel", appImage: "icon_noel", description: "Countdown to Christmas for\niPhone and iPad", color: .blue)
                             .foregroundColor(colorScheme == .dark ? .white : .black)
                     }
-                    .sheet(isPresented: $showView) {
-                        SFSafariView(url: URL(string: self.appStoreURLnoel)!)
+                    .appStoreOverlay(isPresented: $showNoel_App) {
+                        SKOverlay.AppConfiguration(appIdentifier: "\(APIKeys.noelAppID)",
+                                                   position: .bottom)
                     }
                     
                     Button(action: {
-                        showView = true
+                        showNoteStation_App.toggle()
                     }) {
                         OtherApps(appName: "NoteStation", appImage: "icon_notestation", description: "Simple note taking app for\niPhone and iPad", color: .blue)
                             .foregroundColor(colorScheme == .dark ? .white : .black)
                     }
-                    .sheet(isPresented: $showView) {
-                        SFSafariView(url: URL(string: self.appStoreURLnotestation)!)
+                    .appStoreOverlay(isPresented: $showNoteStation_App) {
+                        SKOverlay.AppConfiguration(appIdentifier: "\(APIKeys.notestationAppID)",
+                                                   position: .bottom)
                     }
                 }
             }

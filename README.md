@@ -41,7 +41,7 @@
 ## Requirements
 
 - Xcode 14.3.1
-- iOS 15 / macOS Big Sur
+- iOS 16 / macOS Big Sur
 
 ## Getting-Started
 
@@ -51,11 +51,11 @@
 ## Screenshots
 
 <div align="left">
-    <img src="Images/Screenshots/screenshot01.png" alt="Image 01" width="240" />
+    <img src="Images/screenshot01.png" alt="Image 01" width="240" />
     </a>    
-    <img src="Images/Screenshots/screenshot02.png" alt="Image 02" width="240" />
+    <img src="Images/screenshot02.png" alt="Image 02" width="240" />
     </a>    
-    <img src="Images/Screenshots/screenshot03.png" alt="Image 03" width="240" />
+    <img src="Images/screenshot03.png" alt="Image 03" width="240" />
     </a>    
 </div>
 

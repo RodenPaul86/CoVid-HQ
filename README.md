@@ -63,7 +63,7 @@ end
 ## Requirements
 
 - Xcode 14.3.1
-- iOS 16 / macOS Big Sur
+- iOS 16+
 
 ## Getting-Started
 
